@@ -1,7 +1,7 @@
 // src/admin/AdminHome.jsx
 import { useEffect, useState } from 'react'
 import supabase from '../superbsae'
-import './home.css'
+import './Home.css'
 
 export default function AdminHome() {
   const [categories, setCategories] = useState([])

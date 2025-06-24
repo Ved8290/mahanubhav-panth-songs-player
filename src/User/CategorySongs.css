@@ -1,0 +1,113 @@
+#root{
+    margin: 0px;
+    padding: 0px;
+}
+.category-page {
+  padding: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #fff9f1, #fbeee6);
+  min-height: 100vh;
+  min-width: 100vw;
+  
+}
+
+.sl{
+  color: red;
+  font-weight: 700;
+    background-color: rgb(255, 197, 88);
+    border-radius: 10px;
+    max-width: 80vw;
+    text-align: center;
+    align-items: center;
+  
+    
+}
+
+.category-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.back-btn {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  color: #aa5c00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.category-title {
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+  color: #6d2f00;
+}
+
+.category-subtitle {
+  font-size: 1rem;
+  color: #555;
+}
+
+.songs-list {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+.song-card {
+  background: #fffdfa;
+  border-radius: 12px;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(200, 120, 50, 0.1);
+}
+
+.song-icon {
+  font-size: 2rem;
+}
+
+.song-content {
+  flex: 1;
+}
+
+.audio-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+}
+
+.audio-player {
+  width: 100%;
+}
+
+.duration-label {
+  text-align: right;
+  font-size: 0.85rem;
+  color: #888;
+  margin-top: 4px;
+}
+
+.no-songs {
+  text-align: center;
+  color: #999;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+/* Responsive */
+@media (min-width: 600px) {
+  .songs-list {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  
+ 
+}
+
+@media (min-width: 900px) {
+  .songs-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+}

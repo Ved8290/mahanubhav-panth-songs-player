@@ -1,0 +1,82 @@
+.song-detail-page {
+  padding: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff9f0;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.detail-header {
+  margin-bottom: 1rem;
+}
+
+.back-btn {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  color: #aa5c00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h2 {
+  color: #5e2900;
+  font-size: 1.8rem;
+}
+
+.player-section {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(100, 50, 0, 0.15);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+audio {
+  display: none; /* we use our own controls */
+}
+
+.progress-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 1rem 0;
+}
+
+.progress-bar {
+  flex-grow: 1;
+  height: 10px;
+  border-radius: 5px;
+  background: linear-gradient(to right, #ffaa00, #ff7700);
+  appearance: none;
+  outline: none;
+}
+
+.progress-bar::-webkit-slider-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #5e2900;
+  border: 2px solid #fff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -3px;
+}
+
+.time {
+  font-size: 0.9rem;
+  color: #555;
+  width: 50px;
+  text-align: center;
+}
+
+.controls button {
+  padding: 8px 16px;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 6px;
+  background: #e45f07;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import supabase from '../superbsae'
 import { useNavigate } from 'react-router-dom'
-import './adminLogin.css' 
+import './AdminLogin.css' 
 
 export default function AdminLogin() {
   const [email, setEmail] = useState('')
